@@ -1,1 +1,55 @@
-/* Write your code here */
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-content: space-between;
+  align-items: flex-start;
+  overflow: hidden; }
+  ul li {
+    list-style: none;
+    padding: 5px;
+    width: 100%; }
+    @media screen and (min-width: 641px) {
+      ul li {
+        width: 50%; } }
+    @media screen and (min-width: 1025px) {
+      ul li {
+        width: 25%; } }
+    ul li img {
+      display: block;
+      width: 100%; }
+      ul li img p {
+        font-size: 15px;
+        color: white; }
+    ul li p {
+      font-size: 15px;
+      color: white; }
+
+.overlay {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.75);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .overlay p {
+    font-size: 15px;
+    color: white; }
+
+/*# sourceMappingURL=app.css.map */
