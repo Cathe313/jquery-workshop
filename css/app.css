@@ -1,1 +1,17 @@
-/* Write your code here */
+.announcement {
+  background-color: olive;
+  border: 2px solid black;
+  padding: 20px;
+  position: relative; }
+  .announcement button {
+    background-color: #b3e619;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin: 5px;
+    border: none; }
+  .announcement p {
+    font-size: 1.2em;
+    text-align: justify; }
+
+/*# sourceMappingURL=app.css.map */
