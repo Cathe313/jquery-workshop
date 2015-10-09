@@ -6,9 +6,9 @@ $("img").click(function() {
     // console.log(altText);
     $('body').append(overlay);
     overlay.append("<img src='" + image + "'>");
-    overlay.append(altText);
+    overlay.append("<p>" + altText + "</p>");
     
-    $("img").click(function() {
+    $(overlay).click(function() {
         overlay.hide('slow');
     });    
 });

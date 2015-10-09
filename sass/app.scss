@@ -41,7 +41,7 @@ ul {
 
 .overlay {
     position: fixed;
-    z-index:10000;
+    z-index: 10000;
     top: 0;
     left: 0;
     width: 100vw;
@@ -53,9 +53,10 @@ ul {
     flex-direction: column;
     
     p {
-    font-size: 15px;
-    color: white;
-    padding: 10px;
+        font-size: 1.5em;
+        color: white;
+        font-weight: bold;
+        padding: 20px;        
     }
 }
 
